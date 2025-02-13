@@ -5,7 +5,7 @@ layout: home
 hero:
   name: "lovesqiang的文档"
   text: "A VitePress Site"
-  tagline: 持续学习，持续进步
+  tagline: 自动化部署
   actions:
     - theme: brand
       text: Markdown Examples
