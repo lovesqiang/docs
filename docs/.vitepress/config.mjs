@@ -5,7 +5,7 @@ export default defineConfig({
   title: "lovesqiang",
   // description是SEO要用的
   description: "A VitePress Site",
-  base: "/docs/",
+  base: '/docs/',
   themeConfig: {
     // https://vitepress.dev/reference/default-theme-config
     nav: [
