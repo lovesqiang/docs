@@ -137,3 +137,28 @@
   --docsearch-primary-color: var(--vp-c-brand-1) !important;
 }
 
+/* 基础样式 */
+:root {
+  /* 导航栏高度 */
+  --vp-nav-height: 65px;
+}
+
+/* 高级定制 */
+ /*导航菜单项 */
+.VPNavBarMenuLink {
+  font-weight: 500;
+  padding: 0 14px !important;
+  border-radius: 6px;
+  transition: all 0.2s;
+}
+
+.VPNavBarMenuLink:hover {
+  background: var(--vp-c-brand-soft);
+  transform: translateY(-1px);
+}
+
+ /*激活状态*/
+.VPNavBarMenuLink.active {
+  color: var(--vp-c-brand) !important;
+  position: relative;
+}

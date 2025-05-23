@@ -3,10 +3,10 @@
 layout: page
 ---
 
-<BackNav />
+<FrontNav />
 
 [//]: # (<confetti />)
 
 <script setup>
-  import BackNav from './components/BackNav.vue';
+  import FrontNav from './components/FrontNav.vue';
 </script>

@@ -1,0 +1,30 @@
+{
+  "categories": [
+    {
+      "name": "后端语言",
+      "links": [
+        { "name": "Java 8", "url": "https://docs.oracle.com/javase/8/docs/api/", "icon": "./icons/java.svg" ,"desc": "Java 8 API 规范"},
+        { "name": "Java 11", "url": "https://docs.oracle.com/en/java/javase/11/docs/api/index.html", "icon": "./icons/java.svg" ,"desc": "Java 11 API 规范"},
+        { "name": "C", "url": "https://zh.cppreference.com/", "icon": "./icons/c.svg" ,"desc": "C、C++ 参考手册"},
+        { "name": "Python 3", "url": "https://docs.python.org/zh-cn/3/", "icon": "./icons/python.svg" ,"desc": "Python 3 官方文档"}
+      ]
+    },
+    {
+      "name": "Spring 生态",
+      "links": [
+        { "name": "Vite", "url": "https://vitejs.dev", "icon": "⚡" }
+      ]
+    },
+    {
+      "name": "数据库",
+      "links": [
+        { "name": "Vue.js", "url": "https://vuejs.org", "icon": "🖖" ,"desc": "Vue.js 是一个用于构建用户界面的 JavaScript 框架。"},
+        { "name": "React", "url": "https://reactjs.org", "icon": "⚛️" ,"desc": "React 是一个用于构建用户界面的 JavaScript 库。"},
+        { "name": "Vue.js", "url": "https://vuejs.org", "icon": "🖖" ,"desc": "Vue.js 是一个用于构建用户界面的 JavaScript 框架。"},
+        { "name": "React", "url": "https://reactjs.org", "icon": "⚛️" ,"desc": "React 是一个用于构建用户界面的 JavaScript 库。"},
+        { "name": "Vue.js", "url": "https://vuejs.org", "icon": "🖖" ,"desc": "Vue.js 是一个用于构建用户界面的 JavaScript 框架。"},
+        { "name": "React", "url": "https://reactjs.org", "icon": "⚛️" ,"desc": "React 是一个用于构建用户界面的 JavaScript 库。"}
+      ]
+    }
+  ]
+}
