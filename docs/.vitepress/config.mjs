@@ -11,29 +11,11 @@ export default defineConfig({
   themeConfig: {
     // https://vitepress.dev/reference/default-theme-config
     nav: [
-      {
-        text: 'Home',
-        items: [
-          { text: '首页', link: '/' },
-          { text: 'Markdown 示例', link: '/markdown-examples' },
-          { text: 'Runtime API 示例', link: '/api-examples' }
-        ]
-
-      },
+      { text: '后端导航', link: '/' },
       { text: 'Examples', link: '/markdown-examples' },
       { text: 'guide', link: '/guide/' },
       // { text: '后端', link: '/backend/java' }
     ],
-
-    // sidebar: [
-    //   {
-    //     text: 'guide',
-    //     items: [
-    //       { text: 'git', link: '/guide/Git.md' },
-    //       { text: 'index1', link: '/guide/index1.md' },
-    //     ]
-    //   }
-    // ],
     sidebar: {
       "/guide/": set_sidebar("/docs/guide/"),
     },

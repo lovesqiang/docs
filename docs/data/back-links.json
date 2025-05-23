@@ -1,0 +1,32 @@
+{
+  "categories": [
+    {
+      "name": "前端框架",
+      "links": [
+        { "name": "Vue.js", "url": "https://vuejs.org", "icon": "🖖" ,"desc": "Vue.js 是一个用于构建用户界面的 JavaScript 框架。"},
+        { "name": "React", "url": "https://reactjs.org", "icon": "⚛️" ,"desc": "React 是一个用于构建用户界面的 JavaScript 库。"},
+        { "name": "Vue.js", "url": "https://vuejs.org", "icon": "🖖" ,"desc": "Vue.js 是一个用于构建用户界面的 JavaScript 框架。"},
+        { "name": "React", "url": "https://reactjs.org", "icon": "⚛️" ,"desc": "React 是一个用于构建用户界面的 JavaScript 库。"},
+        { "name": "Vue.js", "url": "https://vuejs.org", "icon": "🖖" ,"desc": "Vue.js 是一个用于构建用户界面的 JavaScript 框架。"},
+        { "name": "React", "url": "https://reactjs.org", "icon": "⚛️" ,"desc": "React 是一个用于构建用户界面的 JavaScript 库。"}
+      ]
+    },
+    {
+      "name": "工具",
+      "links": [
+        { "name": "Vite", "url": "https://vitejs.dev", "icon": "⚡" }
+      ]
+    },
+    {
+      "name": "前端框架2",
+      "links": [
+        { "name": "Vue.js", "url": "https://vuejs.org", "icon": "🖖" ,"desc": "Vue.js 是一个用于构建用户界面的 JavaScript 框架。"},
+        { "name": "React", "url": "https://reactjs.org", "icon": "⚛️" ,"desc": "React 是一个用于构建用户界面的 JavaScript 库。"},
+        { "name": "Vue.js", "url": "https://vuejs.org", "icon": "🖖" ,"desc": "Vue.js 是一个用于构建用户界面的 JavaScript 框架。"},
+        { "name": "React", "url": "https://reactjs.org", "icon": "⚛️" ,"desc": "React 是一个用于构建用户界面的 JavaScript 库。"},
+        { "name": "Vue.js", "url": "https://vuejs.org", "icon": "🖖" ,"desc": "Vue.js 是一个用于构建用户界面的 JavaScript 框架。"},
+        { "name": "React", "url": "https://reactjs.org", "icon": "⚛️" ,"desc": "React 是一个用于构建用户界面的 JavaScript 库。"}
+      ]
+    }
+  ]
+}
