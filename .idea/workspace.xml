@@ -4,7 +4,7 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="300d9ee5-f22f-4f56-b620-c94d0e645203" name="Changes" comment="">
+    <list default="true" id="300d9ee5-f22f-4f56-b620-c94d0e645203" name="Changes" comment="优化界面">
       <change afterPath="$PROJECT_DIR$/docs/data/front-links.json" afterDir="false" />
       <change afterPath="$PROJECT_DIR$/docs/frontIndex.md" afterDir="false" />
       <change afterPath="$PROJECT_DIR$/docs/public/icons/c.svg" afterDir="false" />
@@ -80,11 +80,25 @@
       <option name="presentableId" value="Default" />
       <updated>1747998919647</updated>
       <workItem from="1747998921182" duration="86000" />
-      <workItem from="1748045811752" duration="13921000" />
+      <workItem from="1748045811752" duration="13963000" />
     </task>
+    <task id="LOCAL-00001" summary="优化界面">
+      <option name="closed" value="true" />
+      <created>1748082487806</created>
+      <option name="number" value="00001" />
+      <option name="presentableId" value="LOCAL-00001" />
+      <option name="project" value="LOCAL" />
+      <updated>1748082487806</updated>
+    </task>
+    <option name="localTasksCounter" value="2" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
     <option name="version" value="3" />
+  </component>
+  <component name="VcsManagerConfiguration">
+    <MESSAGE value="网站导航" />
+    <MESSAGE value="优化界面" />
+    <option name="LAST_COMMIT_MESSAGE" value="优化界面" />
   </component>
 </project>
