@@ -6,7 +6,7 @@ export default defineConfig({
     title: "lovesqiang",
     // description是SEO要用的
     description: "A VitePress Site",
-    base: '/website/',
+    base: '/docs/',
     lastUpdated: true, //首次配置不会立即生效，需git提交后爬取时间戳
     themeConfig: {
         logo: '',
