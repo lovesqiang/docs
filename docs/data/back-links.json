@@ -12,9 +12,7 @@
     {
       "name": "Spring 生态",
       "links": [
-        { "name": "Spring", "url": "https://vitejs.dev", "icon": "⚡" },
-        { "name": "SpringBoot", "url": "https://vitejs.dev", "icon": "⚡" },
-        { "name": "SpringClould", "url": "https://vitejs.dev", "icon": "⚡" }
+        { "name": "Vite", "url": "https://vitejs.dev", "icon": "⚡" }
       ]
     },
     {
