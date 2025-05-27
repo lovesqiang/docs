@@ -3,27 +3,293 @@
     {
       "name": "后端语言",
       "links": [
-        { "name": "Java 8", "url": "https://docs.oracle.com/javase/8/docs/api/", "icon": "./icons/java.svg" ,"desc": "Java 8 API 规范"},
-        { "name": "Java 11", "url": "https://docs.oracle.com/en/java/javase/11/docs/api/index.html", "icon": "./icons/java.svg" ,"desc": "Java 11 API 规范"},
-        { "name": "C", "url": "https://zh.cppreference.com/", "icon": "./icons/c.svg" ,"desc": "C、C++ 参考手册"},
-        { "name": "Python 3", "url": "https://docs.python.org/zh-cn/3/", "icon": "./icons/python.svg" ,"desc": "Python 3 官方文档"}
+        {
+          "name": "Java 8",
+          "url": "https://docs.oracle.com/javase/8/docs/api/",
+          "icon": "./icons/java.svg",
+          "desc": "Java 8 API 规范"
+        },
+        {
+          "name": "Java 11",
+          "url": "https://docs.oracle.com/en/java/javase/11/docs/api/index.html",
+          "icon": "./icons/java.svg",
+          "desc": "Java 11 API 规范"
+        },
+        {
+          "name": "C",
+          "url": "https://zh.cppreference.com/",
+          "icon": "./icons/c.svg",
+          "desc": "C、C++ 参考手册"
+        },
+        {
+          "name": "Python 3",
+          "url": "https://docs.python.org/zh-cn/3/",
+          "icon": "./icons/python.svg",
+          "desc": "Python 3 官方文档"
+        }
       ]
     },
     {
       "name": "Spring 生态",
       "links": [
-        { "name": "Vite", "url": "https://vitejs.dev", "icon": "⚡" }
+        {
+          "name": "Spring",
+          "url": "https://spring.io/",
+          "icon": "./icons/spring.svg",
+          "desc": "Spring 使 Java 简单、现代、高效"
+        },
+        {
+          "name": "Spring Boot",
+          "url": "https://spring.io/projects/spring-boot",
+          "icon": "./icons/spring.svg",
+          "desc": "Spring 使 Java 简单、现代、高效"
+        },
+        {
+          "name": "Spring Cloud",
+          "url": "https://spring.io/projects/spring-cloud",
+          "icon": "./icons/spring.svg",
+          "desc": "Spring 使 Java 简单、现代、高效"
+        },
+        {
+          "name": "Spring Security",
+          "url": "https://spring.io/projects/spring-security",
+          "icon": "./icons/spring.svg",
+          "desc": "Spring 使 Java 简单、现代、高效"
+        },
+        {
+          "name": "Spring AI",
+          "url": "https://spring.io/projects/spring-ai",
+          "icon": "./icons/spring.svg",
+          "desc": "Spring 使 Java 简单、现代、高效"
+        }
       ]
     },
     {
       "name": "数据库",
       "links": [
-        { "name": "Vue.js", "url": "https://vuejs.org", "icon": "🖖" ,"desc": "Vue.js 是一个用于构建用户界面的 JavaScript 框架。"},
-        { "name": "React", "url": "https://reactjs.org", "icon": "⚛️" ,"desc": "React 是一个用于构建用户界面的 JavaScript 库。"},
-        { "name": "Vue.js", "url": "https://vuejs.org", "icon": "🖖" ,"desc": "Vue.js 是一个用于构建用户界面的 JavaScript 框架。"},
-        { "name": "React", "url": "https://reactjs.org", "icon": "⚛️" ,"desc": "React 是一个用于构建用户界面的 JavaScript 库。"},
-        { "name": "Vue.js", "url": "https://vuejs.org", "icon": "🖖" ,"desc": "Vue.js 是一个用于构建用户界面的 JavaScript 框架。"},
-        { "name": "React", "url": "https://reactjs.org", "icon": "⚛️" ,"desc": "React 是一个用于构建用户界面的 JavaScript 库。"}
+        {
+          "name": "MySQL",
+          "url": "https://dev.mysqlserver.cn/doc/",
+          "icon": "./icons/MYSQL.svg",
+          "desc": "全球广受欢迎的开源数据库"
+        },
+        {
+          "name": "Oracle",
+          "url": "https://www.oracle.com/technetwork/cn/database/database-technologies/sql/documentation/index.html",
+          "icon": "./icons/Oracle.svg",
+          "desc": "甲骨文公司的关系数据库管理系统"
+        },
+        {
+          "name": "Redis",
+          "url": "https://redis.com.cn/tutorial.html",
+          "icon": "./icons/Redis.svg",
+          "desc": "Redis中文教程"
+        },
+        {
+          "name": "Redis",
+          "url": "https://redis.io/docs/latest/",
+          "icon": "./icons/Redis.svg",
+          "desc": "Redis官方文档"
+        },
+        {
+          "name": "Elasticsearch",
+          "url": "https://www.elastic.co/docs",
+          "icon": "./icons/elasticsearch.svg",
+          "desc": "分布式搜素和分析引擎"
+        },
+        {
+          "name": "Elasticsearch",
+          "url": "https://elastic.ac.cn/docs/",
+          "icon": "./icons/elasticsearch.svg",
+          "desc": "分布式搜素和分析引擎"
+        }
+      ]
+    },
+    {
+      "name": "ORM 框架",
+      "links": [
+        {
+          "name": "MyBatis",
+          "url": "https://mybatis.org/mybatis-3/zh_CN/index.html",
+          "icon": "./icons/mybatis.svg",
+          "desc": "MyBatis 是一款优秀的持久层框架，它支持自定义 SQL、存储过程以及高级映射。"
+        },
+        {
+          "name": "MyBatis-Plus",
+          "url": "https://baomidou.com/",
+          "icon": "./icons/mybatisplus.svg",
+          "desc": "MyBatis 最佳搭档，只做增强不做改变，为简化开发、提高效率而生。"
+        },
+        {
+          "name": "xbatis",
+          "url": "https://mybatis-mp.cn/",
+          "icon": "./icons/xbatis.svg",
+          "desc": "基于 mybatis 扩展的ORM框架，超方便、学习成本低、优雅的API、方便扩展、功能强大！！！"
+        }
+      ]
+    },
+    {
+      "name": "消息队列",
+      "links": [
+        {
+          "name": "ActiveMQ",
+          "url": "https://activemq.apache.org/",
+          "icon": "./icons/activemq.svg",
+          "desc": "Apache ActiveMQ是最流行的开源、多协议、基于Java的消息代理。"
+        },
+        {
+          "name": "RabbitMQ",
+          "url": "https://www.rabbitmq.com/",
+          "icon": "./icons/rabbitmq.svg",
+          "desc": "RabbitMQ是一个可靠且成熟的消息传递和流媒体代理，易于在云环境、本地和本地计算机上部署"
+        }
+      ]
+    },
+    {
+      "name": "权限认证",
+      "links": [
+        {
+          "name": "Sa-Token",
+          "url": "https://sa-token.cc/index.html",
+          "icon": "./icons/token.svg",
+          "desc": "开源、免费、轻量级Java权限认证框架，让鉴权变得简单、优雅"
+        },
+        {
+          "name": "JWT",
+          "url": "https://jwt.io/",
+          "icon": "./icons/token.svg",
+          "desc": "JSON Web Tokens是一种开放的、符合行业标准的RFC 7519方法，用于安全地表示双方之间的声明。"
+        }
+      ]
+    },
+    {
+      "name": "存储",
+      "links": [
+        {
+          "name": "阿里云 OSS",
+          "url": "https://help.aliyun.com/zh/oss/getting-started/get-started-with-oss",
+          "icon": "./icons/aliyun.svg",
+          "desc": "对象存储OSS是阿里云提供的海量、安全、低成本的云存储服务，用于存放和管理各种数据文件，并提供多种访问方式。"
+        },
+        {
+          "name": "MinIO",
+          "url": "https://www.minio.org.cn/download.shtml",
+          "icon": "./icons/minio.svg",
+          "desc": "MinIO 是一个高性能的分布式对象存储系统。"
+        }
+      ]
+    },
+    {
+      "name": "容器",
+      "links": [
+        {
+          "name": "docker",
+          "url": "https://www.docker.com/",
+          "icon": "./icons/docker.svg",
+          "desc": "Docker 是一个开源的应用容器引擎，基于 Go 语言 并遵从 Apache2.0 协议开源。"
+        },
+        {
+          "name": "kubernetes",
+          "url": "https://kubernetes.io/zh-cn/docs/home/",
+          "icon": "./icons/kubernetes.svg",
+          "desc": "Kubernetes 也称为 K8s，是用于自动部署、扩缩和管理容器化应用程序的开源系统。"
+        }
+      ]
+    },
+    {
+      "name": "定时任务",
+      "links": [
+        {
+          "name": "XXL-JOB",
+          "url": "https://www.xuxueli.com/xxl-job/",
+          "icon": "./icons/xxl-job.svg",
+          "desc": "分布式任务调度平台"
+        }
+      ]
+    },
+    {
+      "name": "文件操作",
+      "links": [
+        {
+          "name": "Dom4j",
+          "url": "https://dom4j.org/",
+          "icon": "./icons/book.svg",
+          "desc": "开源XML解析包"
+        },
+        {
+          "name": "EasyExcel",
+          "url": "https://easyexcel.opensource.alibaba.com/",
+          "icon": "./icons/easyexcel.svg",
+          "desc": "EasyExcel是一个基于Java的、快速、简洁、解决大文件内存溢出的Excel处理工具"
+        }
+      ]
+    },
+    {
+      "name": "压测",
+      "links": [
+        {
+          "name": "JMeter",
+          "url": "https://jmeter.apache.org/",
+          "icon": "./icons/Jmeter.svg",
+          "desc": "jmeter是apache公司基于java开发的一款开源压力测试工具，体积小，功能全，使用方便，是一个比较轻量级的测试工具，使用起来非常简单"
+        }
+      ]
+    },
+    {
+      "name": "数据格式",
+      "links": [
+        {
+          "name": "JSON",
+          "url": "https://developer.mozilla.org/zh-CN/docs/Learn_web_development/Core/Scripting/JSON",
+          "icon": "./icons/json.svg",
+          "desc": "轻量级的数据交换格式"
+        },
+        {
+          "name": "yaml",
+          "url": "https://c.biancheng.net/view/3lv0yxj.html",
+          "icon": "./icons/yaml.svg",
+          "desc": "YAML 是一种有层级且可读性非常强的数据格式，用于表示数据结构和配置信息，具有简洁、可扩展和易于理解的特点。"
+        },
+        {
+          "name": "XML",
+          "url": "https://c.biancheng.net/view/3lv0yxj.html",
+          "icon": "./icons/xml.svg",
+          "desc": "XML 指可扩展标记语言。XML 被设计用来传输和存储数据，不用于表现和展示数据。"
+        }
+      ]
+    },
+    {
+      "name": "项目构建",
+      "links": [
+        {
+          "name": "Maven",
+          "url": "https://maven.apache.org/",
+          "icon": "./icons/maven.svg",
+          "desc": "Maven是一个跨平台的项目管理工具"
+        },
+        {
+          "name": "Maven Repository",
+          "url": "https://mvnrepository.com/",
+          "icon": "./icons/MavenRepo.svg",
+          "desc": "Maven 仓库"
+        },
+        {
+          "name": "Maven central repository",
+          "url": "https://central.sonatype.com/",
+          "icon": "./icons/MavenRepo.svg",
+          "desc": "Maven 仓库"
+        }
+      ]
+    },
+    {
+      "name": "版本控制",
+      "links": [
+        {
+          "name": "Git",
+          "url": "https://git-scm.cn/doc",
+          "icon": "./icons/git.svg",
+          "desc": "分布式版本控制系统"
+        }
       ]
     }
   ]

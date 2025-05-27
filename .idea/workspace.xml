@@ -4,23 +4,34 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="300d9ee5-f22f-4f56-b620-c94d0e645203" name="Changes" comment="优化界面">
-      <change afterPath="$PROJECT_DIR$/docs/data/front-links.json" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/docs/frontIndex.md" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/docs/public/icons/c.svg" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/docs/public/icons/java.svg" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/docs/public/icons/python.svg" afterDir="false" />
+    <list default="true" id="300d9ee5-f22f-4f56-b620-c94d0e645203" name="Changes" comment="添加后端常用站点">
+      <change afterPath="$PROJECT_DIR$/docs/public/icons/Jmeter.svg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/docs/public/icons/MYSQL.svg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/docs/public/icons/MavenRepo.svg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/docs/public/icons/Oracle.svg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/docs/public/icons/Redis.svg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/docs/public/icons/activemq.svg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/docs/public/icons/aliyun.svg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/docs/public/icons/book.svg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/docs/public/icons/docker.svg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/docs/public/icons/easyexcel.svg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/docs/public/icons/elasticsearch.svg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/docs/public/icons/git.svg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/docs/public/icons/json.svg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/docs/public/icons/kubernetes.svg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/docs/public/icons/maven.svg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/docs/public/icons/minio.svg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/docs/public/icons/mybatis.svg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/docs/public/icons/mybatisplus.svg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/docs/public/icons/rabbitmq.svg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/docs/public/icons/spring.svg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/docs/public/icons/token.svg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/docs/public/icons/xbatis.svg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/docs/public/icons/xml.svg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/docs/public/icons/xxl-job.svg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/docs/public/icons/yaml.svg" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/docs/.vitepress/config.mjs" beforeDir="false" afterPath="$PROJECT_DIR$/docs/.vitepress/config.mjs" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/docs/.vitepress/theme/style.css" beforeDir="false" afterPath="$PROJECT_DIR$/docs/.vitepress/theme/style.css" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/docs/api-examples.md" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/docs/components/BackNav.vue" beforeDir="false" afterPath="$PROJECT_DIR$/docs/components/BackNav.vue" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/docs/components/FrontNav.vue" beforeDir="false" afterPath="$PROJECT_DIR$/docs/components/FrontNav.vue" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/docs/components/NavBox.vue" beforeDir="false" afterPath="$PROJECT_DIR$/docs/components/NavBox.vue" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/docs/components/confetti.vue" beforeDir="false" afterPath="$PROJECT_DIR$/docs/components/confetti.vue" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/docs/data/back-links.json" beforeDir="false" afterPath="$PROJECT_DIR$/docs/data/back-links.json" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/docs/index.md" beforeDir="false" afterPath="$PROJECT_DIR$/docs/index.md" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/docs/markdown-examples.md" beforeDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -37,21 +48,21 @@
   <component name="ProjectViewState">
     <option name="showLibraryContents" value="true" />
   </component>
-  <component name="PropertiesComponent"><![CDATA[{
-  "keyToString": {
-    "RunOnceActivity.ShowReadmeOnStart": "true",
-    "RunOnceActivity.git.unshallow": "true",
-    "git-widget-placeholder": "main",
-    "last_opened_file_path": "E:/documents/docs/public/icons",
-    "node.js.detected.package.eslint": "true",
-    "node.js.detected.package.tslint": "true",
-    "node.js.selected.package.eslint": "(autodetect)",
-    "node.js.selected.package.tslint": "(autodetect)",
-    "nodejs_package_manager_path": "npm",
-    "ts.external.directory.path": "D:\\develop\\WebStorm 2024.3.5\\plugins\\javascript-plugin\\jsLanguageServicesImpl\\external",
-    "vue.rearranger.settings.migration": "true"
+  <component name="PropertiesComponent">{
+  &quot;keyToString&quot;: {
+    &quot;RunOnceActivity.ShowReadmeOnStart&quot;: &quot;true&quot;,
+    &quot;RunOnceActivity.git.unshallow&quot;: &quot;true&quot;,
+    &quot;git-widget-placeholder&quot;: &quot;main&quot;,
+    &quot;last_opened_file_path&quot;: &quot;E:/documents/docs/public/icons&quot;,
+    &quot;node.js.detected.package.eslint&quot;: &quot;true&quot;,
+    &quot;node.js.detected.package.tslint&quot;: &quot;true&quot;,
+    &quot;node.js.selected.package.eslint&quot;: &quot;(autodetect)&quot;,
+    &quot;node.js.selected.package.tslint&quot;: &quot;(autodetect)&quot;,
+    &quot;nodejs_package_manager_path&quot;: &quot;npm&quot;,
+    &quot;ts.external.directory.path&quot;: &quot;D:\\develop\\WebStorm 2024.3.5\\plugins\\javascript-plugin\\jsLanguageServicesImpl\\external&quot;,
+    &quot;vue.rearranger.settings.migration&quot;: &quot;true&quot;
   }
-}]]></component>
+}</component>
   <component name="RecentsManager">
     <key name="CopyFile.RECENT_KEYS">
       <recent name="E:\documents\docs\public\icons" />
@@ -81,6 +92,10 @@
       <updated>1747998919647</updated>
       <workItem from="1747998921182" duration="86000" />
       <workItem from="1748045811752" duration="13963000" />
+      <workItem from="1748265364705" duration="2233000" />
+      <workItem from="1748268256951" duration="3320000" />
+      <workItem from="1748343271881" duration="1382000" />
+      <workItem from="1748344816807" duration="5821000" />
     </task>
     <task id="LOCAL-00001" summary="优化界面">
       <option name="closed" value="true" />
@@ -90,15 +105,52 @@
       <option name="project" value="LOCAL" />
       <updated>1748082487806</updated>
     </task>
-    <option name="localTasksCounter" value="2" />
+    <task id="LOCAL-00002" summary="优化界面">
+      <option name="closed" value="true" />
+      <created>1748083251831</created>
+      <option name="number" value="00002" />
+      <option name="presentableId" value="LOCAL-00002" />
+      <option name="project" value="LOCAL" />
+      <updated>1748083251831</updated>
+    </task>
+    <task id="LOCAL-00003" summary="添加后端常用站点">
+      <option name="closed" value="true" />
+      <created>1748083544859</created>
+      <option name="number" value="00003" />
+      <option name="presentableId" value="LOCAL-00003" />
+      <option name="project" value="LOCAL" />
+      <updated>1748083544859</updated>
+    </task>
+    <task id="LOCAL-00004" summary="添加后端常用站点">
+      <option name="closed" value="true" />
+      <created>1748083894164</created>
+      <option name="number" value="00004" />
+      <option name="presentableId" value="LOCAL-00004" />
+      <option name="project" value="LOCAL" />
+      <updated>1748083894164</updated>
+    </task>
+    <option name="localTasksCounter" value="5" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
     <option name="version" value="3" />
   </component>
+  <component name="Vcs.Log.Tabs.Properties">
+    <option name="TAB_STATES">
+      <map>
+        <entry key="MAIN">
+          <value>
+            <State />
+          </value>
+        </entry>
+      </map>
+    </option>
+  </component>
   <component name="VcsManagerConfiguration">
     <MESSAGE value="网站导航" />
+    <MESSAGE value="Merge remote-tracking branch 'origin/main'&#10;&#10;# Conflicts:&#10;#&#9;.idea/workspace.xml&#10;#&#9;docs/.vitepress/config.mjs&#10;#&#9;docs/.vitepress/theme/style.css&#10;#&#9;docs/components/BackNav.vue&#10;#&#9;docs/components/NavBox.vue&#10;#&#9;docs/data/back-links.json&#10;#&#9;docs/index.md" />
     <MESSAGE value="优化界面" />
-    <option name="LAST_COMMIT_MESSAGE" value="优化界面" />
+    <MESSAGE value="添加后端常用站点" />
+    <option name="LAST_COMMIT_MESSAGE" value="添加后端常用站点" />
   </component>
 </project>
