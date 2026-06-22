@@ -3,6 +3,7 @@ import { h } from 'vue'
 import DefaultTheme from 'vitepress/theme'
 import './style.css'
 import confetti from "/components/confetti.vue"
+import HomeHero from "../../components/HomeHero.vue"
 import mediumZoom from 'medium-zoom';
 import { onMounted, watch, nextTick } from 'vue';
 import { useRoute } from 'vitepress';
@@ -32,5 +33,6 @@ export default {
   enhanceApp({ app, router, siteData }) {
     // 注册全局组件
     app.component('confetti', confetti)
+    app.component('HomeHero', HomeHero)
   }
 }

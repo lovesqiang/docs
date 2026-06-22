@@ -1,12 +1,8 @@
 ---
-# https://vitepress.dev/reference/default-theme-home-page
-layout: page
+layout: home
 ---
 
-<BackNav />
-
-[//]: # (<confetti />)
-
-<script setup>
-  import BackNav from './components/BackNav.vue';
-</script>
+<HomeHero>
+  <div class="hero-content">
+  </div>
+</HomeHero>

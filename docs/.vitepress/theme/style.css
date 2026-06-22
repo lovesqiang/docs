@@ -137,6 +137,50 @@
   --docsearch-primary-color: var(--vp-c-brand-1) !important;
 }
 
+/* 导航栏毛玻璃效果 */
+.VPNavBar {
+  background: transparent !important;
+  backdrop-filter: none !important;
+  -webkit-backdrop-filter: none !important;
+  border-bottom: none !important;
+  transition: all 0.3s ease !important;
+}
+
+.VPNavBar:hover {
+  background: rgba(255, 255, 255, 0.1) !important;
+  backdrop-filter: blur(10px) !important;
+  -webkit-backdrop-filter: blur(10px) !important;
+}
+
+.VPNavBarTitle {
+  background: linear-gradient(120deg, #bd34fe, #41d1ff) !important;
+  -webkit-background-clip: text !important;
+  -webkit-text-fill-color: transparent !important;
+  background-clip: text !important;
+}
+
+
+
+.VPNavBarSearch .DocSearch-Button {
+  background: transparent !important;
+}
+
+.VPNavBarSearch .DocSearch-Button-Placeholder {
+  color: rgba(255, 255, 255, 0.8) !important;
+}
+
+.VPNavBarSearch .DocSearch-Button-Key {
+  color: rgba(255, 255, 255, 0.8) !important;
+}
+
+.VPNavBarSearch .DocSearch-Button-Icon {
+  color: rgba(255, 255, 255, 0.8) !important;
+}
+
+.VPNavBarSearch .DocSearch-Button:hover {
+  background: rgba(255, 255, 255, 0.05) !important;
+}
+
 /* 基础样式 */
 :root {
   /* 导航栏高度 */
@@ -153,7 +197,7 @@
 }
 
 .VPNavBarMenuLink:hover {
-  background: var(--vp-c-brand-soft);
+  background: rgba(255, 255, 255, 0.1);
   transform: translateY(-1px);
 }
 
