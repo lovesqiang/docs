@@ -9,6 +9,7 @@ const WHITE_LIST = [
   ".vitepress",
   "node_modules",
   ".idea",
+  "images",
   "assets",
 ];
 

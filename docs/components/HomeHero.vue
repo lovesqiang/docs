@@ -20,7 +20,7 @@ const bgImage = ref('')
 // 随机选择背景图片
 const getRandomImage = () => {
   // 使用提供的接口
-  return 'https://rimg.zhuqiy.top/api/random?type=pc'
+  return 'https://t.alcy.cc/ycy'
 }
 
 onMounted(() => {

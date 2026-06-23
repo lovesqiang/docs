@@ -146,17 +146,128 @@
   transition: all 0.3s ease !important;
 }
 
-.VPNavBar:hover {
-  background: rgba(255, 255, 255, 0.1) !important;
-  backdrop-filter: blur(10px) !important;
-  -webkit-backdrop-filter: blur(10px) !important;
+/* Light 模式悬停效果 */
+@media (prefers-color-scheme: light) {
+  .VPNavBar:hover {
+    background: rgba(255, 255, 255, 0.7) !important;
+    backdrop-filter: blur(8px) !important;
+    -webkit-backdrop-filter: blur(8px) !important;
+    box-shadow: 0 1px 3px rgba(0, 0, 0, 0.1) !important;
+  }
+
+  .VPNavBar:hover .VPNavBarTitle {
+    color: var(--vp-c-text-1) !important;
+  }
+
+  .VPNavBar:hover .VPNavBarMenuLink {
+    color: var(--vp-c-text-1) !important;
+  }
+}
+
+/* Dark 模式导航栏 */
+@media (prefers-color-scheme: dark) {
+  .VPNavBar {
+    background: rgba(0, 0, 0, 0.9) !important;
+    backdrop-filter: blur(10px) !important;
+    -webkit-backdrop-filter: blur(10px) !important;
+    box-shadow: 0 1px 3px rgba(0, 0, 0, 0.5) !important;
+  }
+
+  .VPNavBar .VPNavBarTitle {
+    color: #ffffff !important;
+  }
+
+  .VPNavBar .VPNavBarMenuLink {
+    color: #ffffff !important;
+    text-shadow: 0 0 4px rgba(0, 0, 0, 0.5) !important;
+  }
+
+  .VPNavBar .VPNavBarMenuLink:hover {
+    background: var(--vp-c-default-soft) !important;
+    color: var(--vp-c-brand-1) !important;
+    text-shadow: none !important;
+  }
+
+  /* Dark 模式悬停效果：增加背景亮度，确保文字清晰 */
+  .VPNavBar:hover {
+    background: rgba(20, 20, 20, 0.95) !important;
+    box-shadow: 0 2px 8px rgba(0, 0, 0, 0.8) !important;
+  }
+
+  .VPNavBar:hover .VPNavBarTitle {
+    color: #ffffff !important;
+    text-shadow: 0 0 10px rgba(255, 255, 255, 0.5) !important;
+  }
+
+  .VPNavBar:hover .VPNavBarMenuLink {
+    color: #ffffff !important;
+    text-shadow: 0 0 6px rgba(0, 0, 0, 0.8) !important;
+  }
+
+  .VPNavBar:hover .VPNavBarMenuLink:hover {
+    background: var(--vp-c-default-soft) !important;
+    color: var(--vp-c-brand-1) !important;
+    text-shadow: 0 0 8px rgba(255, 255, 255, 0.3) !important;
+  }
+}
+
+/* Light 模式下导航栏样式 */
+@media (prefers-color-scheme: light) {
+  /* 默认状态：完全透明，显示完整图片 */
+  .VPNavBar {
+    background: transparent !important;
+    backdrop-filter: none !important;
+    -webkit-backdrop-filter: none !important;
+    border-bottom: none !important;
+    box-shadow: none !important;
+  }
+
+  .VPNavBarTitle {
+    color: var(--vp-c-text-1) !important;
+  }
+
+  .VPNavBarMenuLink {
+    color: var(--vp-c-text-1) !important;
+  }
+
+  .VPNavBarMenuLink:hover {
+    background: var(--vp-c-default-soft) !important;
+    color: var(--vp-c-brand-1) !important;
+  }
+
+  .VPNavBarMenuLink.active {
+    color: var(--vp-c-brand-1) !important;
+  }
+
+  .VPNavBarSearch .DocSearch-Button {
+    background: var(--vp-c-default-soft) !important;
+    border: 1px solid var(--vp-c-divider) !important;
+  }
+
+  .VPNavBarSearch .DocSearch-Button-Placeholder {
+    color: var(--vp-c-text-2) !important;
+  }
+
+  .VPNavBarSearch .DocSearch-Button-Key {
+    color: var(--vp-c-text-2) !important;
+  }
+
+  .VPNavBarSearch .DocSearch-Button-Icon {
+    color: var(--vp-c-text-2) !important;
+  }
+
+  .VPNavBarSearch .DocSearch-Button:hover {
+    background: var(--vp-c-default) !important;
+  }
+}
+
+/* 确保HomeHero组件不被导航栏遮挡 */
+.VPHero {
+  padding-top: var(--vp-nav-height) !important;
 }
 
 .VPNavBarTitle {
-  background: linear-gradient(120deg, #bd34fe, #41d1ff) !important;
-  -webkit-background-clip: text !important;
-  -webkit-text-fill-color: transparent !important;
-  background-clip: text !important;
+  color: var(--vp-c-text-1) !important;
 }
 
 

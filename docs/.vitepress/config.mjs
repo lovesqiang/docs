@@ -21,8 +21,7 @@ export default defineConfig({
     themeConfig: {
         logo: "",
         nav: [
-
-            { text: "前端导航", link: "/frontIndex.md" },
+             { text: "AI", link: "/src/ai/" },
             { text: "guide", link: "/guide/" },
             {
                 text: "Dropdown Menu",
@@ -41,14 +40,17 @@ export default defineConfig({
         ],
         sidebar: {
             "/guide/": set_sidebar("/docs/guide/"),
+            "/src/ai/": set_sidebar("/docs/src/ai/"),
         },
 
-        socialLinks: [{ icon: "github", link: "https://github.com/lovesqiang" }],
+        socialLinks: [
+            { icon: "github", link: "https://github.com/lovesqiang" }
+        ],
 
 
         // 大纲
         outline: {
-            level: [1, 4], // 显示2-4级标题
+            level: [2, 5], // 显示2-4级标题
             // level: 'deep', // 显示2-6级标题
             label: "当前页大纲", // 文字显示
         },
