@@ -4,7 +4,7 @@
 
 ## 快速导航
 
-- [尚硅谷AICoding教程](AICoding教程.md)
+- [AICoding教程](AICoding教程.md)
 
 ---
 
