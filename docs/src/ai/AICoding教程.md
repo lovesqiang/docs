@@ -2,10 +2,12 @@
 
 ::: tip 致谢
 本文档是在《尚硅谷AICoding教程》上做精简。
+
 尚硅谷VibeCoding实战教程：https://www.bilibili.com/video/BV1RPET6tEp2/
 :::
 
 > 从零开始，用自然语言指挥AI构建真实软件项目
+>
 > 基于 Claude Code 深度实践 | 多模型配置全覆盖 | 国内用户友好
 
 ## 前言
