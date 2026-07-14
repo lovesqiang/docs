@@ -1,18 +1,12 @@
 # AI Coding 零基础实战教程
 
 ::: tip 致谢
-
 本文档是在《尚硅谷AICoding教程》上做精简。
-
 尚硅谷VibeCoding实战教程：https://www.bilibili.com/video/BV1RPET6tEp2/
-
 :::
 
 > 从零开始，用自然语言指挥AI构建真实软件项目
->
 > 基于 Claude Code 深度实践 | 多模型配置全覆盖 | 国内用户友好
-
----
 
 ## 前言
 
@@ -46,8 +40,6 @@
 第七部分：Codex Desktop ──→ 拓展视野，掌握另一个主流AI编程工具
 ```
 
----
-
 ## 第零部分：环境准备与工具安装
 
 ### 0.1 终端/命令行入门
@@ -71,12 +63,8 @@
 | PowerShell 窗口闪退 | 可能被系统策略限制 | 右键以管理员身份运行 |
 
 ::: warning
-
 请尽量使用**全英文**的文件夹名和文件名。中文路径在很多开发工具中会引发奇怪的错误，这是一个经典的坑。
-
 ::: 
-
----
 
 ### 0.2 开发环境安装
 
@@ -105,8 +93,6 @@ $ git config --global user.email "your.email@example.com"
 - 下载地址：https://www.python.org/downloads/
 - Windows：务必勾选 “Add Python to PATH”
 - 验证安装：`python --version` 和 `pip --version`
-
----
 
 ## 第一部分：AI编程基础理论
 
